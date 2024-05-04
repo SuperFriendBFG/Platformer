@@ -75,9 +75,9 @@ func _input(event: InputEvent):
 	if(event.is_action_pressed("down") and is_on_floor()):
 		position.y += 4
 
-func _on_area_entered(_body):
-	emit_signal("hit")
-	animated_sprite_2d.play("hit")
+#func _on_area_entered(_body):
+	#emit_signal("hit")
+	#animated_sprite_2d.play("hit")
 	
 
 
